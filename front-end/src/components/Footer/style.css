@@ -1,0 +1,20 @@
+.footer i {
+  color: white;
+}
+
+.footer {
+  background-color: rgb(23, 23, 23);
+  padding: 15px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 700px) {
+  .footer {
+    display: none;
+  }
+}
