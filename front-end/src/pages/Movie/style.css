@@ -1,0 +1,81 @@
+.sh-image {
+  /* padding: 10px; */
+  position: relative;
+}
+.sh-img-2 {
+  width: 100%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sh-image img {
+  height: 450px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+.sh-image .fa-angle-left {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.519);
+  padding: 8px 13px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+.sh-image .sh-image-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* padding: 0px 10px; */
+  justify-content: center;
+  padding: 0px 10px;
+  gap: 10px;
+}
+.sh-image .sh-image-btn button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.sh-image h2,
+.sh-image h3 {
+  width: 100%;
+  color: white;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+
+.sh-image p {
+  width: 100%;
+  color: gray;
+  padding: 0px 10px;
+}
+.sh-image .cast-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  overflow-x: scroll;
+  padding: 10px 10px;
+}
+.sh-image .cast-img::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.sh-image h1 {
+  width: 40px;
+  height: 40px;
+  /* padding: 0px 10px; */
+  background-color: antiquewhite;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 700px) {
+  .sh-img-2 {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
